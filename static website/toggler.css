@@ -1,0 +1,65 @@
+.top-container{
+    background-color: rgba(1, 53, 1, 0.808);
+    height: 100vh;
+}
+
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px;
+    font-weight: bold;
+    color: rgba(254, 229, 0, 0.837);
+    line-height: 80px;
+    padding: 0 100px;
+}
+
+nav{
+    background-color: darkgreen;
+    height: 80px;
+    width:100%;
+}
+
+.list-item{
+    float: right;
+    margin-right: 10%;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 3px 5%;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+   
+    transition: .5s;
+    text-decoration: none;
+    color: rgb(236, 218, 13);
+}
+
+.carousel-fade{
+}
+
+.second-container{
+background-color: darkgreen;
+height: 80px;
+width: 90px;
+}
